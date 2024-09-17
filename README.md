@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**RiboFramedKmer** is derived from **RiboDocs**, a bioinformatics workflow designed for processing Ribosome Profiling (Ribo-seq) data.  
+**RiboFramedKmer** is derived from **RiboDocs**, a bioinformatics workflow designed for processing Ribo-seq data.  
 The **RS_Framed_kmers** pipeline automates key steps ensuring a streamlined and reproducible approach for ribosome profiling. This pipeline processes data from raw sequencing reads to ribosome profiling outputs and k-mer analyses.
 Once phased ribo-seq k-mers are generated, they are organized into a phased k-mer matrix, where rows represent k-mers and columns correspond to input datasets. 
 Using **KaMRaT**, the pipeline constructs the comprehensive **k-mer index** (RSindex) and generates a contig count matrix (contigs are merged k-mers).
