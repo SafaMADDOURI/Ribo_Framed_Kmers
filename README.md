@@ -140,7 +140,7 @@ The main outputs are the RS index (`kmerCount/Kamrat/index`), the k-mer count ta
 
 ## Configuration
 
-The pipeline relies on a configuration file that defines project-specific settings such as paths, reference files, trimming settings, k-mer analysis parameters, and more. This configuration file. The pipeline uses a configuration file (`config.yaml`) that defines project-specific settings, including paths, reference files, trimming parameters, k-mer analysis settings, and more. This file must be tailored to your specific environment and data.
+The pipeline uses a configuration file (`config.yaml`) that defines project-specific settings, including paths, reference files, trimming parameters, k-mer analysis settings, and more. This file must be tailored to your specific environment and data.
 Your working directory should contain a `fastq` directory for your FASTQ files, as well as a `database` directory for the reference files specified in the configuration file.
 Below is an example of the key sections from the `config.yaml` file:
 
